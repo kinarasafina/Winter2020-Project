@@ -1,0 +1,91 @@
+
+h1 {
+    color:#73A06A;
+    font-size: 50px;
+    padding-left: 5%;
+    margin-bottom: 0;
+}
+
+h2 {
+    color:darkslategray;
+    font-size: 30px;
+    padding-left: 5%;
+    margin-top: 0;
+}
+
+h3 {
+    color:darkslategray;
+    text-align: center;
+}
+
+a {
+    color:darkslategray;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#63AA73;
+    text-decoration: underline;
+}
+
+.center {
+    text-align: center;
+}
+
+body {
+    background-color:white;
+}
+
+.vertical-left{
+    height: 450px;
+    width: 300px;
+    padding-left: 5%;
+    margin-bottom: 0;
+}
+
+.vertical-left:hover {
+    opacity: 70%;
+}
+
+.horizontal {
+    height: 300px;
+    width: 450px;
+    padding:7.5px;
+}
+
+.horizontal:hover {
+    opacity: 70%;
+}
+
+.horizontal-left{
+    height: 300px;
+    width: 450px;
+    padding-left: 5%;
+}
+
+.horizontal-left:hover {
+    opacity: 70%;
+}
+
+.horizontal-middle {
+    width: 500px;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+
+}
+
+.horizontal-middle:hover{
+    opacity: 70%;
+}
+
+.vertical-right {
+    height: 450px;
+    width: 300px;
+    margin-bottom: 0;
+    padding-left: 7.5px;
+
+}
+
+.vertical-right:hover{
+    opacity: 70%;
+}
