@@ -1,0 +1,61 @@
+h1 {
+    color:#73A06A;
+    font-size: 65px;
+    margin-bottom: 0;
+
+}
+
+h2 {
+    color:darkslategray;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.logo {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     */
+     display: inline;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img {
+    height: 60x;
+    width: 60px;
+}
+
+.icon {
+    display: inline;
+    opacity: 1;
+}
+
+.icon:hover {
+    opacity: 0.5;
+}
+
+/* .credit {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+} */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100vh;
+    height: 25vh;
+}
+
+

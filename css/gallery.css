@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+h1 {
+    color:#73A06A;
+    font-size: 50px;
+    padding-left: 8%;
+    margin-bottom: 0;
+    padding-top: 1%;
+
+}
+
+h2 {
+    color:darkslategray;
+    font-size: 30px;
+    padding-left: 8%;
+    margin-top: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+
+}
+h3 {
+    color:darkslategray;
+    text-align: center;
+}
+
+a {
+    color:darkslategray;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#63AA73;
+    text-decoration: underline;
+}
+
+.center {
+    text-align: center;
+}
+
+body {
+    background-color:white;
+}
+
+.all {
+    height: 100vh;
+    margin: auto;
+}
+
+.row-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.horizontal {
+   
+    width: 350px;
+    height: 233px;
+    border: 5px transparent;
+    padding:0 2px 0 2px;
+    
+}
+
+/* .horizontal:hover {
+    opacity: 70%; */
+/* } */
+
+
+.vertical {
+    width: 350px;
+    height: 525px;
+    border: 5px transparent;
+    padding:2px 2px 2px 2px;
+}
+
+.row-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* .vertical:hover {
+    opacity: 70%;
+} */
+
+/* .lol {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        /* display: none; */
+/* } */
+
+/* .h4 {
+    position: relative;
+    text-align: center; */ 
+/* } */
+ /* .h4:hover + .lol{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+ } */
+
+ .image {
+     position: relative;
+ }
+
+ .horizontal-overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.4);
+     color:white;
+     /* font-family: 'Work Sans', sans-serif; */
+     font-family: 'Work Sans', sans-serif;
+     display:flex;
+     flex-direction:column;
+     justify-content: center;
+     align-items:center;
+     opacity: 0;
+     transition: opacity 0.35s;
+}
+
+.horizontal-overlay:hover {
+    opacity: 1;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.desc {
+    font-size: 0.75em;
+    margin-top: 0.25em;
+}
+
+.vertical-overlay {
+    position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.4);
+     color:white;
+     /* font-family: 'Work Sans', sans-serif; */
+     font-family: 'Work Sans', sans-serif;
+     display:flex;
+     flex-direction:column;
+     justify-content: center;
+     align-items:center;
+     opacity: 0;
+     transition: opacity 0.35s;
+}
+
+.vertical-overlay:hover {
+    opacity: 1;
+}
+
