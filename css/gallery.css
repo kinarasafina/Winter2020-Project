@@ -149,7 +149,7 @@ body {
      transition: opacity 0.35s;
 }
 
-.horizontal-overlay:hover {
+.horizontal-overlay:hover, .horizontal-overlay:active {
     opacity: 1;
 }
 
@@ -181,7 +181,7 @@ body {
      transition: opacity 0.35s;
 }
 
-.vertical-overlay:hover {
+.vertical-overlay:hover, .vertical-overlay:active {
     opacity: 1;
 }
 
