@@ -2,19 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
 
 h1 {
-    color:#73A06A;
-    font-size: 50px;
+    color:#2f4f4f;
+    /* color:#73A06A; */
+    font-size: 3em;
     padding-left: 8%;
     margin-bottom: 0;
     padding-top: 1%;
+    font-family: 'Work Sans', sans-serif;
 
 }
 
 h2 {
     color:darkslategray;
-    font-size: 30px;
+    font-size: 2em;
     padding-left: 8%;
     margin-top: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
 }
 
 header {
@@ -25,6 +29,11 @@ header {
 h3 {
     color:darkslategray;
     text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.footer {
+    font-family: 'Work Sans', sans-serif;
 }
 
 a {
@@ -39,6 +48,8 @@ a:hover {
 
 .center {
     text-align: center;
+    color: #2f4f4f;
+    font-family: 'Work Sans', sans-serif;
 }
 
 body {
@@ -48,19 +59,24 @@ body {
 .all {
     height: 100vh;
     margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.row-one {
+/* .row-one {
     display: flex;
     flex-direction: row;
     justify-content: center;
     
-}
+} */
 
 .horizontal {
    
-    width: 350px;
-    height: 233px;
+    /* 350px 233px */
+    width: 22em;
+    height: 15em;
     border: 5px transparent;
     padding:0 2px 0 2px;
     
@@ -72,17 +88,19 @@ body {
 
 
 .vertical {
-    width: 350px;
-    height: 525px;
+    
+    /* 350px 525px */
+    width: 22em;
+    height: 33em;
     border: 5px transparent;
     padding:2px 2px 2px 2px;
 }
 
-.row-two {
+/* .row-two {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
+} */
 
 /* .vertical:hover {
     opacity: 70%;
@@ -166,4 +184,6 @@ body {
 .vertical-overlay:hover {
     opacity: 1;
 }
+
+
 
